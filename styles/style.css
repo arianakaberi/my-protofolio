@@ -8,7 +8,7 @@
 
 
 body.light {
-  background: #f9f6f2;
+  background: #d1ae80;
   color: #b94a12;
 }
 
@@ -189,3 +189,134 @@ body.dark .image-bg {
     display: none; 
   }
 }
+
+
+#skills {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  color: #c44e00;
+  border-bottom: 3px solid #ff9900;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 700px;
+}
+
+.skills-list li {
+  background-color: #e0f0ff;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  color: #ff9900;
+}
+
+
+#experience {
+  padding: 60px 40px;
+  background-color: #fafafa;
+}
+
+#experience h2 {
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 800px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.skills-list i {
+  color: #ff6b6b;
+  margin-right: 10px;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+#contact i {
+  color: #0077b5
+  margin-right: 8px;
+}
+  font-size: 2rem;
+  color: #88e23e;
+  border-bottom: 3px solid #ff7300c9;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+.experience-item {
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+.experience-item h3 {
+  color: #ff9100;
+  margin-bottom: 6px;
+}
+
+.experience-item p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+
+#contact {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  color: #b15103;
+  border-bottom: 3px solid #797163;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+#contact a {
+  color: #e67315;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+
+
